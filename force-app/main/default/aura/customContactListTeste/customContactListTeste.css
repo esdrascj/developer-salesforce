@@ -1,0 +1,5 @@
+.THIS .disable-click .slds-text-heading--label {
+    
+    pointer-events: none;
+    
+}

@@ -1,0 +1,14 @@
+<aura:component implements="force:appHostable">
+    <div class="disable-click">
+
+        <lightning:listView aura:id="listViewAccounts"
+        objectApiName="Account"
+        listName="AllAccounts"
+        rows="5"
+        showSearchBar="true"
+        showActionBar="true"
+        enableInlineEdit="true"
+        showRowLevelActions="true"
+        />
+    </div>
+</aura:component>
